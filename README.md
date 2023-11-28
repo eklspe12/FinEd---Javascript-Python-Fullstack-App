@@ -17,6 +17,11 @@ FinEd is an App I created to demonstrate skills in Python, Javascript, React, an
 
 ---
 
+## Getting Started 
+Before you start this application you will need to install a few things. Navigate to the root folder and run "npm install" and "pipenv install". When these have finished downloading, you can start the frontend by navigating to the client folder and running "npm start". To start the backend, open a new tab in your terminal and run "pipenv shell", followed by "python seed.py", and finally "python app.py".
+
+---
+
 # Pages
 
 ## Login
