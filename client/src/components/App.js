@@ -3,7 +3,7 @@ import { Switch, Route, useHistory } from 'react-router-dom';
 import NavBar from './NavBar';
 import Login from './Login';
 import StockSimulator from './StockSimulator';
-import FinancialNews from './FinancialNews';
+// import FinancialNews from './FinancialNews';
 import ExpenseList from './ExpenseList';
 import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 import Home from './Home';
@@ -59,9 +59,9 @@ function App() {
 					<Route exact path="/">
 						<Home user={user} />
 					</Route>
-					<Route exact path="/financial_news">
+					{/* <Route exact path="/financial_news">
 						<FinancialNews />
-					</Route>
+					</Route> */}
 					<Route exact path="/stock_simulator">
 						<StockSimulator
 							user={user}
